@@ -33,8 +33,8 @@ class VoteClassifier(ClassifierI):
         conf = choice_votes / len(votes)
         return conf
 
-short_pos = open("/Users/apple/Desktop/mini-project/short_reviews/positive.txt","r").read()
-short_neg = open("/Users/apple/Desktop/mini-project/short_reviews/negative.txt","r").read()
+short_pos = open("short_reviews/positive.txt","r").read()
+short_neg = open("short_reviews/negative.txt","r").read()
 
 # move this up here
 all_words = []
